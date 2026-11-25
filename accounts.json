@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "updated": "2026-11-25",
+  "note": "账号表：hash = SHA-256(salt + ':' + 密码)，新增用户可照此生成",
+  "accounts": [
+    {
+      "username": "admin",
+      "nickname": "管理员",
+      "salt": "3c63cfb0",
+      "hash": "3b54a33f95e6a66b91954c5f9ff7c0fb6871476e3fc07d77ae9dbb1cb5500abb"
+    },
+    {
+      "username": "demo",
+      "nickname": "体验账号",
+      "salt": "c9d38682",
+      "hash": "03ec954d7d088ef232129235cca870373bb4dd07ef11651277676c0f35ae2ead"
+    }
+  ]
+}
